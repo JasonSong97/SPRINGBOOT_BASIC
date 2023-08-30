@@ -25,6 +25,10 @@
 
 [해당 챕터에서 알게된 내용](https://velog.io/@jaegeunsong_1997/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%EB%8F%85%ED%95%99-2%EC%9E%A5-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-3-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0)
 
+### 3. 스프링 부트 3 구조 이해하기
+
+[해당 챕터에서 알게된 내용](https://velog.io/@jaegeunsong_1997/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%EB%8F%85%ED%95%99-3%EC%9E%A5-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-3-%EA%B5%AC%EC%A1%B0-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
+
 #### 출처
 
 [신서영 백엔드 개발자님의 스프링부트 3 백엔드 개발자 되기 자바편](https://github.com/shinsunyoung/springboot-developer)
