@@ -8,8 +8,8 @@ import lombok.NoArgsConstructor;
 
 @Getter
 @Entity
-@AllArgsConstructor
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
+@AllArgsConstructor
 public class Member {
 
     @Id
