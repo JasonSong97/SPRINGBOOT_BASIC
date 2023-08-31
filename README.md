@@ -37,6 +37,12 @@
 
 [해당 챕터에서 알게된 내용](https://velog.io/@jaegeunsong_1997/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%EB%8F%85%ED%95%99-5%EC%9E%A5-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%99%80-%EC%A1%B0%EC%9E%91%EC%9D%B8-%ED%8E%B8%ED%95%B4%EC%A7%80%EB%8A%94-ORM)
 
+### 6. 블로그 기획하고 API 만들기
+
+[해당 챕터에서 알게된 내용](https://velog.io/@jaegeunsong_1997/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%EB%8F%85%ED%95%99-6%EC%9E%A5-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B8%B0%ED%9A%8D%ED%95%98%EA%B3%A0-API-%EB%A7%8C%EB%93%A4%EA%B8%B0)
+
+
+
 #### 출처
 
 [신서영 백엔드 개발자님의 스프링부트 3 백엔드 개발자 되기 자바편](https://github.com/shinsunyoung/springboot-developer)
