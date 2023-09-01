@@ -11,3 +11,6 @@ spring:
   h2:
     console:
       enabled: true
+jwt:
+  issuer: jaegeunsong97@gmail.com # 이슈 발급자
+  secret_key: study-springboot # 비밀키
