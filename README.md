@@ -41,7 +41,9 @@
 
 [해당 챕터에서 알게된 내용](https://velog.io/@jaegeunsong_1997/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%EB%8F%85%ED%95%99-6%EC%9E%A5-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B8%B0%ED%9A%8D%ED%95%98%EA%B3%A0-API-%EB%A7%8C%EB%93%A4%EA%B8%B0)
 
+### 7. 블로그 화면 구성하기
 
+[해당 챕터에서 알게된 내용](https://velog.io/@jaegeunsong_1997/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%EB%8F%85%ED%95%99-7%EC%9E%A5-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%99%94%EB%A9%B4-%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0)
 
 #### 출처
 
