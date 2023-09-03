@@ -2,7 +2,6 @@ package me.songjaegeun.springbootdeveloper.controller;
 
 import lombok.RequiredArgsConstructor;
 import me.songjaegeun.springbootdeveloper.domain.Article;
-
 import me.songjaegeun.springbootdeveloper.dto.ArticleListViewResponse;
 import me.songjaegeun.springbootdeveloper.dto.ArticleViewResponse;
 import me.songjaegeun.springbootdeveloper.service.BlogService;
@@ -36,6 +35,7 @@ public class BlogViewController {
         model.addAttribute("article", new ArticleViewResponse(article));
         return "article";
     }
+
 
     @GetMapping("/new-article")
     public String newArticle(@RequestParam(required = false) Long id, Model model) {

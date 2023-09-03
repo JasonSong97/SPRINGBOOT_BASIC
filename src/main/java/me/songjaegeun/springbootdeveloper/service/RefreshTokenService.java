@@ -5,8 +5,8 @@ import me.songjaegeun.springbootdeveloper.domain.RefreshToken;
 import me.songjaegeun.springbootdeveloper.repository.RefreshTokenRepository;
 import org.springframework.stereotype.Service;
 
-@Service
 @RequiredArgsConstructor
+@Service
 public class RefreshTokenService {
 
     private final RefreshTokenRepository refreshTokenRepository;

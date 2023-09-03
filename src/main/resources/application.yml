@@ -11,6 +11,16 @@ spring:
   h2:
     console:
       enabled: true
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 453946061435-ruqbubin0m9d0vc3efg47gcaiv2odstq.apps.googleusercontent.com
+            client-secret: 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
+            scope:
+              - email
+              - profile
 jwt:
   issuer: jaegeunsong97@gmail.com # 이슈 발급자
   secret_key: study-springboot # 비밀키

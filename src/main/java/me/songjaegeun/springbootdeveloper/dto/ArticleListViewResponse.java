@@ -4,7 +4,7 @@ import lombok.Getter;
 import me.songjaegeun.springbootdeveloper.domain.Article;
 
 @Getter
-public class ArticleListViewResponse { // view에 전달하는 객체
+public class ArticleListViewResponse {
 
     private final Long id;
     private final String title;

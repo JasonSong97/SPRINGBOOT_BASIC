@@ -2,12 +2,37 @@
 
 ## 배우는 기술
 
+- FontEnd
+  - 템플릿 엔진
+  - thymeleaf
+
 - BackEnd
+  - SpringBoot
+    - Spring
+    - IoC
+    - Bean
   - Spring Security
+    - Stateful Server  
+    - Authentication
+    - Authorization
+    - Spring Security
+      - 세션 기반 인증 방식
   - JPA
+    - ORM
+    - Hibernate
+    - Spring Data Jpa
   - OAuth2.0
   - JWT
+    - Stateless Server
+    - 토큰 기반 인증 방식
+    - Filter
+    - SecurityContext
+      - Thread Local 
+      - SecurityContestHolder
+    - Refresh Token
   - JUnit Test
+    - AssertJ
+    - Assertion
   - AWS
   - 깃허브 액션을 통한 CI/CD
 
