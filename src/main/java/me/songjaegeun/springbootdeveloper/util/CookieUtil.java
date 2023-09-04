@@ -25,6 +25,7 @@ public class CookieUtil {
             return;
         }
 
+        // 생성되자마자 만료되게 만들기
         for (Cookie cookie : cookies) {
             if (name.equals(cookie.getName())) {
                 cookie.setValue("");

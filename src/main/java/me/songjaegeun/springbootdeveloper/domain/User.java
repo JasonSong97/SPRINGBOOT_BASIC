@@ -27,19 +27,18 @@ public class User implements UserDetails {
     @Column(name = "password")
     private String password;
     @Column(name = "nickname", unique = true)
-    private String nickname;
+    private String nickname; // oauth2
 
     @Builder
     public User(String email, String password, String nickname) {
         this.email = email;
         this.password = password;
-        this.nickname = nickname;
+        this.nickname = nickname; // oauth2
     }
 
     /**
-     * 의미있는 메소드
+     * OAuth2
      */
-
     public User update(String nickname) {
         this.nickname = nickname;
         return this;

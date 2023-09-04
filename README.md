@@ -2,27 +2,53 @@
 
 ## 배우는 기술
 
-- FontEnd
+- FrontEnd
   - 템플릿 엔진
   - thymeleaf
+  - javascript
+  - html
 
 - BackEnd
-  - SpringBoot
+  - `SpringBoot`
     - Spring
     - IoC
     - Bean
-  - Spring Security
+  - `Spring Security`
     - Stateful Server  
     - Authentication
     - Authorization
     - Spring Security
       - 세션 기반 인증 방식
-  - JPA
+  - `JPA`
     - ORM
     - Hibernate
     - Spring Data Jpa
-  - OAuth2.0
-  - JWT
+  - `OAuth2.0`
+    - 용어
+      - 리소스 오너
+        - 리소스 오너 정보를 가지고 오는 4가지 방법
+          - authorization code grant type : 권한 부여 코드 승인 타입(중요, 채택)
+            - 권한요청
+              - client_id
+              - redirect_uri
+              - response_type
+              - scope
+            - 데이터 접근용 권한 부여
+              - 최초 1회
+            - 인증코드 제공
+            - 액세스 토큰 응답
+              - client_secret
+              - grant_type
+            - 액세스 토큰으로 API 응답 & 반환
+          - client credentials grant : 클라이언트 자격증명 승인 타입(중요)
+          - implicit grant type : 암시적 승인 타입
+          - resource owner password credentials : 리소스 소유자 암호 자격증명 승인 타입
+      - 리소스 서버
+      - 인증 서버
+      - 클라이언트 애플리케이션
+    - Cookie
+      - 액세스 토큰
+  - `JWT`
     - Stateless Server
     - 토큰 기반 인증 방식
     - Filter
@@ -30,7 +56,7 @@
       - Thread Local 
       - SecurityContestHolder
     - Refresh Token
-  - JUnit Test
+  - `JUnit Test`
     - AssertJ
     - Assertion
   - AWS
@@ -77,6 +103,11 @@
 ### 9. JWT로 로그인/로그아웃 구현하기
 
 [해당 챕터에서 알게된 내용](https://velog.io/@jaegeunsong_1997/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%EB%8F%85%ED%95%99-9%EC%9E%A5-JWT%EB%A1%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8%EB%A1%9C%EA%B7%B8%EC%95%84%EC%9B%83-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
+
+### 10. OAuth2로 로그인/로그아웃 구현하기
+
+[해당 챕터에서 알게된 내용 1](https://velog.io/@jaegeunsong_1997/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%EB%8F%85%ED%95%99-10%EC%9E%A5-OAuth2%EB%A1%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8%EB%A1%9C%EA%B7%B8%EC%95%84%EC%9B%83-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-a)
+[해당 챕터에서 알게된 내용 2](https://velog.io/@jaegeunsong_1997/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%EB%8F%85%ED%95%99-10%EC%9E%A5-OAuth2%EB%A1%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8%EB%A1%9C%EA%B7%B8%EC%95%84%EC%9B%83-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-b)
 
 #### 출처
 
