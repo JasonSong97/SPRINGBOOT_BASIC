@@ -112,10 +112,15 @@
 
 ### 11. AWS에 프로젝트 배포하기
 
+[해당 챕터에서 알게된 내용 1](https://velog.io/@jaegeunsong_1997/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%EB%8F%85%ED%95%99-11%EC%9E%A5-AWS%EC%97%90-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0-a)
+[해당 챕터에서 알게된 내용 2](https://velog.io/@jaegeunsong_1997/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%EB%8F%85%ED%95%99-11%EC%9E%A5-AWS%EC%97%90-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0-b)
+
 ### 12. CI/CD 도입하기(끝!)
+
+[해당 챕터에서 알게된 내용]()
 
 #### 출처 및 참고
 
-[신서영 백엔드 개발자님의 스프링부트 3 백엔드 개발자 되기 자바편](https://github.com/shinsunyoung/springboot-developer)
+[신선영 백엔드 개발자님의 스프링부트 3 백엔드 개발자 되기 자바편](https://github.com/shinsunyoung/springboot-developer)
 
-[신서영 개발자님 소스코드](https://github.com/shinsunyoung/springboot-developer) 
+[신선영 개발자님 소스코드](https://github.com/shinsunyoung/springboot-developer) 
