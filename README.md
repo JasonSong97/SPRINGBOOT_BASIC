@@ -1,5 +1,9 @@
 # 스프링 부트 3로 백엔드 입문하기
 
+## 배포된 사이트
+
+[My Blog](http://springboot-developer-env.eba-bdsxf3r2.ap-northeast-2.elasticbeanstalk.com/login)
+
 ## 배우는 기술
 
 - FrontEnd
@@ -117,7 +121,7 @@
 
 ### 12. CI/CD 도입하기(끝!)
 
-[해당 챕터에서 알게된 내용]()
+[해당 챕터에서 알게된 내용](https://velog.io/@jaegeunsong_1997/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%EB%8F%85%ED%95%99-12%EC%9E%A5-CICD-%EB%8F%84%EC%9E%85%ED%95%98%EA%B8%B0)
 
 #### 출처 및 참고
 
