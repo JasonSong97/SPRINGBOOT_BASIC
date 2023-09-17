@@ -17,14 +17,12 @@ import java.util.Map;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
-class TokenProviderTest {
+public class TokenProviderTest {
 
     @Autowired
     private TokenProvider tokenProvider;
-
     @Autowired
     private UserRepository userRepository;
-
     @Autowired
     private JwtProperties jwtProperties;
 
