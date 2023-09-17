@@ -5,10 +5,6 @@ spring:
       hibernate:
         format_sql: true
     defer-datasource-initialization: true
-# 애플리케이션 실행 시 엘리스틱 빝스톡에서 값을 덮어쓰므로 여기는 삭제
-#  datasource: 
-#    url: jdbc:h2:mem:testdb
-#    username: song
   h2:
     console:
       enabled: true

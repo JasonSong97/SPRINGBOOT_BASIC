@@ -14,8 +14,10 @@ public class RefreshToken {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", updatable = false)
     private Long id;
+
     @Column(name = "user_id", nullable = false, unique = true)
     private Long userId;
+
     @Column(name = "refresh_token", nullable = false)
     private String refreshToken;
 
@@ -24,11 +26,9 @@ public class RefreshToken {
         this.refreshToken = refreshToken;
     }
 
-    /**
-     * 의미있는 메소드
-     */
     public RefreshToken update(String newRefreshToken) {
         this.refreshToken = newRefreshToken;
+
         return this;
     }
 }

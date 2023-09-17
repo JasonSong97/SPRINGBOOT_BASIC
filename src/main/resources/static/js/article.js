@@ -41,7 +41,7 @@ if (modifyButton) {
             location.replace(`/articles/${id}`);
         }
 
-        httpRequest('PUT',`/api/articles/${id}`, body, success, fail); // 통신
+        httpRequest('PUT',`/api/articles/${id}`, body, success, fail);
     });
 }
 
@@ -64,7 +64,7 @@ if (createButton) {
             location.replace('/articles');
         };
 
-        httpRequest('POST','/api/articles', body, success, fail) // 통신
+        httpRequest('POST','/api/articles', body, success, fail)
     });
 }
 
@@ -96,16 +96,12 @@ function httpRequest(method, url, body, success, fail) {
             'Content-Type': 'application/json',
         },
         body: body,
-
     }).then(response => {
         if (response.status === 200 || response.status === 201) {
             return success();
         }
-
-        // 에려 나온 경우 -> 재발급
         const refresh_token = getCookie('refresh_token');
         if (response.status === 401 && refresh_token) {
-            // 재발급
             fetch('/api/token', {
                 method: 'POST',
                 headers: {
@@ -121,10 +117,9 @@ function httpRequest(method, url, body, success, fail) {
                         return res.json();
                     }
                 })
-                .then(result => {
-                    // 재발급이 성공하면 로컬 스토리지값을 새로운 액세스 토큰으로 교체
+                .then(result => { // 재발급이 성공하면 로컬 스토리지값을 새로운 액세스 토큰으로 교체
                     localStorage.setItem('access_token', result.accessToken);
-                    httpRequest(method, url, body, success, fail); // 다시 통신 요청
+                    httpRequest(method, url, body, success, fail);
                 })
                 .catch(error => fail());
         } else {

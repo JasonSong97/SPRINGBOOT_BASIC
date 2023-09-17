@@ -26,27 +26,26 @@ public class BlogService {
     }
 
     public Article findById(long id) {
-        return blogRepository.findById(id).orElseThrow(
-                () -> new IllegalArgumentException("not found : " + id)
-        );
+        return blogRepository.findById(id)
+                .orElseThrow(() -> new IllegalArgumentException("not found : " + id));
     }
 
     public void delete(long id) {
-        Article article = blogRepository.findById(id).orElseThrow(
-                () -> new IllegalArgumentException("not found : " + id)
-        );
+        Article article = blogRepository.findById(id)
+                .orElseThrow(() -> new IllegalArgumentException("not found : " + id));
+
         authorizeArticleAuthor(article);
         blogRepository.delete(article);
     }
 
     @Transactional
     public Article update(long id, UpdateArticleRequest request) {
-        Article article = blogRepository.findById(id).orElseThrow(
-                () -> new IllegalArgumentException("not found : " + id)
-        );
+        Article article = blogRepository.findById(id)
+                .orElseThrow(() -> new IllegalArgumentException("not found : " + id));
 
         authorizeArticleAuthor(article);
         article.update(request.getTitle(), request.getContent());
+
         return article;
     }
 

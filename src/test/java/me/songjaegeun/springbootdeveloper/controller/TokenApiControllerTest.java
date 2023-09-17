@@ -22,14 +22,13 @@ import org.springframework.web.context.WebApplicationContext;
 
 import java.util.Map;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @SpringBootTest
 @AutoConfigureMockMvc
-public class TokenApiControllerTest {
+class TokenApiControllerTest {
 
     @Autowired
     protected MockMvc mockMvc;
@@ -56,7 +55,7 @@ public class TokenApiControllerTest {
         userRepository.deleteAll();
     }
 
-    @DisplayName("createNewAccessToken: 새로운 액세스 토큰을 발급한다. ")
+    @DisplayName("createNewAccessToken: 새로운 액세스 토큰을 발급한다.")
     @Test
     public void createNewAccessToken() throws Exception {
         // given

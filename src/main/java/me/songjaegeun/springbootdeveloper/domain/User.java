@@ -22,31 +22,31 @@ public class User implements UserDetails {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", updatable = false)
     private Long id;
+
     @Column(name = "email", nullable = false, unique = true)
     private String email;
+
     @Column(name = "password")
     private String password;
+
     @Column(name = "nickname", unique = true)
-    private String nickname; // oauth2
+    private String nickname;
 
     @Builder
     public User(String email, String password, String nickname) {
         this.email = email;
         this.password = password;
-        this.nickname = nickname; // oauth2
+        this.nickname = nickname;
     }
 
-    /**
-     * OAuth2
-     */
     public User update(String nickname) {
         this.nickname = nickname;
+
         return this;
     }
 
-    /**
-     * Security
-     */
+
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return List.of(new SimpleGrantedAuthority("user"));
